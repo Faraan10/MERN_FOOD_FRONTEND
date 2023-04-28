@@ -1,0 +1,22 @@
+.App {
+  text-align:center;
+}
+
+.text{
+  text-align:left;
+}
+
+.button{
+  margin-left:60px;
+  border-radius:5px;
+  height:40px;
+  width:100px;
+  color:white;
+  background-color:red;
+  border:none;
+  padding:5px;
+}
+
+.image{
+  margin-left:90%;
+}
