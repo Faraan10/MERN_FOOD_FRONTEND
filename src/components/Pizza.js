@@ -28,17 +28,17 @@ function Pizza({pizza}){
                 <div className="w-100 m-1">
                     <p>Varients</p>
                     <select className="form-control" value={varient} onChange={(e)=>{setVarient(e.target.value)}}>
-                        {pizza.varients.map(varient=>{
-                            return <option value={varient}>{varient}</option>
-                        })}
+                        {pizza.varients.map(varient=>(
+                             <option value={varient}>{varient}</option>
+                        ))}
                     </select>
                 </div>
                 <div className="w-100 m-1">
                     <p>Quantity</p>
                     <select className="form-control" value={quantity} onChange={(e)=>{setQuantity(e.target.value)}}>
-                        {[...Array(10).keys()].map((x, i)=>{
-                            return <option value={i+1}>{i+1}</option>
-                        })}
+                        {[...Array(10).keys()].map((x, i)=>(
+                            <option value={i+1}>{i+1}</option>
+                        ))}
                     </select>
                 </div>
             </div>

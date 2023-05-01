@@ -45,5 +45,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://13.235.95.45:5000/"
+  "proxy": "https://mern-backend-eecx.onrender.com/"
 }

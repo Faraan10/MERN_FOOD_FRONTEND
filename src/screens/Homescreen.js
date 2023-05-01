@@ -19,15 +19,15 @@ function Homescreen(){
 
                 {loading ? (<h1>Loading</h1>) : error ? (<h1>Something went wrong</h1>) : (
 
-pizzas.map(pizza=>{
+pizzas.map(pizza=>(
 
-    return <div className="col-md-3 m-3" key={pizza._id}>
+     <div className="col-md-3 m-3" key={pizza._id}>
         <div>
             <Pizza pizza={pizza}/>
         </div>
     </div>
 
-})
+))
 
                 )}
 

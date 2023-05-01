@@ -15,8 +15,8 @@ export default function Cartscreen() {
         <div className="col-md-6">
           <h2 style={{fontSize:'40px'}}>My Cart</h2>
 
-          {cartItems.map(item=>{
-            return  <div className='flex-container'>
+          {cartItems.map(item=>(
+              <div className='flex-container'>
 
             <div className='text m1 w-100'>
               <h1>{item.name} [{item.varient}]</h1>
@@ -39,7 +39,7 @@ export default function Cartscreen() {
 
             </div>
             
-          })}
+          ))}
     </div>
 
 
